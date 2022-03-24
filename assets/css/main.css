@@ -1,0 +1,23 @@
+.column-inner{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    flex-grow: 1;
+    background-color: red !important;
+    padding-top: 0;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+}
+a {
+    text-decoration: none;
+}
+/* animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
